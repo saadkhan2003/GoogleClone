@@ -81,19 +81,19 @@ form{
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24),0 2px 2px 0 rgba(0,0,0,0.19);
 
 }
-
-@media (min-width: 600px){
-    .placehold{
-        width: 600px;
-    }
-    
-}
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .placehold{
         width: 300px;
     }
+}
+
+@media screen and (max-width: 400px){
+    .placehold{
+        width: 200px;
+    }
     
 }
+
 
 #btn-search{
     font-size: 14px;
